@@ -1,0 +1,64 @@
+
+section {
+  float: left;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.side-section {
+  width: 15%;
+}
+
+.main-section {
+  width: 70%;
+}
+
+footer {
+  clear: left
+}
+
+footer>p {
+  box-sizing: border-box;
+  float: left;
+  max-width: 25%;
+  padding: 2em;
+  color: #818692;
+}
+
+.navigation {
+  float: left;
+  box-sizing: border-box;
+}
+
+.logo {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+}
+
+main {
+  clear: left
+}
+
+article {
+  box-sizing: content-box;
+  margin: 2em;
+}
+
+nav>a {
+  margin-left: 4em;
+  font-size: 2em;
+  font-family: 'Mulish';
+  color: #818692;
+  text-decoration: none;
+}
