@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "3 column HTML template",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "prettier --check **/*.{html,css} && npx stylelint **/*.css",
+    "lint:fix": "prettier --check **/*.{html,css} && npx stylelint **/*.css --fix"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jev11/otus-lesson-16.git"
